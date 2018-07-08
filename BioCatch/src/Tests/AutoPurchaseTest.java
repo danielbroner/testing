@@ -34,7 +34,7 @@ public class AutoPurchaseTest {
 		ebayObj.searchProducts("fashion men");
 		ebayObj.clickOnItem(numOfItem);
 		
-		while (ebayObj.getTotalPrice() < 5) {
+		while (ebayObj.getTotalPrice() < 500) {
 			
 			numOfItem++;
 			driver.navigate().back();
