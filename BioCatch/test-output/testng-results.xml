@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51014" started-at="2018-07-08T09:10:43Z" finished-at="2018-07-08T09:11:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51014" started-at="2018-07-08T09:10:43Z" finished-at="2018-07-08T09:11:34Z">
+      <class name="Tests.ApiTest">
+        <test-method status="PASS" signature="getInvalidData()[pri:0, instance:Tests.ApiTest@204f30ec]" name="getInvalidData" duration-ms="3238" started-at="2018-07-08T09:10:52Z" finished-at="2018-07-08T09:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInvalidData -->
+        <test-method status="PASS" signature="getValidAndInvalidData()[pri:0, instance:Tests.ApiTest@204f30ec]" name="getValidAndInvalidData" duration-ms="1695" started-at="2018-07-08T09:10:55Z" finished-at="2018-07-08T09:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidAndInvalidData -->
+        <test-method status="PASS" signature="getValidData()[pri:0, instance:Tests.ApiTest@204f30ec]" name="getValidData" duration-ms="1461" started-at="2018-07-08T09:10:57Z" finished-at="2018-07-08T09:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidData -->
+      </class> <!-- Tests.ApiTest -->
+      <class name="Tests.AutoPurchaseTest">
+        <test-method status="PASS" signature="InitDriver()[pri:0, instance:Tests.AutoPurchaseTest@77cd7a0]" name="InitDriver" is-config="true" duration-ms="9125" started-at="2018-07-08T09:10:43Z" finished-at="2018-07-08T09:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitDriver -->
+        <test-method status="PASS" signature="initBuyer()[pri:0, instance:Tests.AutoPurchaseTest@77cd7a0]" name="initBuyer" is-config="true" duration-ms="4" started-at="2018-07-08T09:10:52Z" finished-at="2018-07-08T09:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBuyer -->
+        <test-method status="PASS" signature="AddProducts()[pri:0, instance:Tests.AutoPurchaseTest@77cd7a0]" name="AddProducts" duration-ms="19601" started-at="2018-07-08T09:10:58Z" finished-at="2018-07-08T09:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProducts -->
+        <test-method status="PASS" signature="checkout()[pri:0, instance:Tests.AutoPurchaseTest@77cd7a0]" name="checkout" duration-ms="13005" started-at="2018-07-08T09:11:18Z" finished-at="2018-07-08T09:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Tests.AutoPurchaseTest@77cd7a0]" name="closeDriver" is-config="true" duration-ms="2834" started-at="2018-07-08T09:11:31Z" finished-at="2018-07-08T09:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.AutoPurchaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
